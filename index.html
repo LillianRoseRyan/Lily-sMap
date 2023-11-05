@@ -34,7 +34,7 @@
 
   /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
   L.tileLayer(
-    'https://{s}tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    'https://{https://tile.openstreetmap.org/{z}/{x}//{y}.png}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https//.openstreetmap.org/copyright">\
         OpenStreetMap</a> contributors, &copy;\
         <a href="https://carto.com/attribution">CARTO</a>'
@@ -45,11 +45,11 @@
   .bindPopup("Trinity College"); // EDIT pop-up text message
 
     /* Display a point marker with pop-up text */
-  L.marker([41.55691121013913, -72.65682287498421).addTo(map) // EDIT marker coordinates
+  L.marker([41.55691121013913, -72.65682287498421]).addTo(map) // EDIT marker coordinates
   .bindPopup("Wesleyan University"); // EDIT pop-up text message
     
        /* Display a point marker with pop-up text */
-  L.marker([41.37985702732098, -72.10390428212918).addTo(map) // EDIT marker coordinates
+  L.marker([41.37985702732098, -72.10390428212918]).addTo(map) // EDIT marker coordinates
   .bindPopup("Connecticut College"); // EDIT pop-up text message
   </script>
 </body>
